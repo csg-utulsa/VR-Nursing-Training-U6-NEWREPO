@@ -51,9 +51,8 @@ public class MainMenuController : MonoBehaviour
 
     void OnPlayButtonClicked()
     {
-        Debug.Log("Play button clicked");
+        //Debug.Log("Play button clicked");
         SceneManager.LoadScene("Level_01");
-        //TODO
     }
 
     void OnSettingsButtonClicked()
@@ -66,6 +65,6 @@ public class MainMenuController : MonoBehaviour
     {
         Debug.Log("Quit button clicked");
         //Application.Quit();
-        //TODO
+        //TODO?
     }
 }

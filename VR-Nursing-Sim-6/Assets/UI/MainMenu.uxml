@@ -1,10 +1,11 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(0, 223, 255);">
-        <ui:VisualElement name="Buttons" style="flex-grow: 1;">
-            <ui:Label text="Main Menu" name="Text" />
-            <ui:Button text="Play" name="Play" />
-            <ui:Button text="Settings" name="Settings" />
-            <ui:Button text="Quit" name="Quit" />
+    <Style src="project://database/Assets/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=d6b94d1f90367d243aaec4288d5140ee&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 223, 255, 0);">
+        <ui:VisualElement name="Buttons" class="focus" style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Label text="Main Menu" name="Text" class="header" />
+            <ui:Button text="Play" name="Play" class="button" />
+            <ui:Button text="Settings" name="Settings" class="button" />
+            <ui:Button text="Quit" name="Quit" class="button" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
