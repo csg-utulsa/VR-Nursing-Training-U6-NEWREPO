@@ -14,11 +14,13 @@ namespace UTulsa.VRNS.Managers
         [SerializeField]
         private GameObject vrPlayer;
 
+        public bool testSwitchCont = true; //just here to swap easier
+
         private void Awake()
         {
             base.Awake();
             //The very first thing this method does is determine which control method we use
-            if (true)
+            if (testSwitchCont)
             {
                 //This will be for Desktop mode, which we have to use right now
                 //playerInput.Enable(); //Later we need to make sure it only activates the correct ActionMap based on input device
