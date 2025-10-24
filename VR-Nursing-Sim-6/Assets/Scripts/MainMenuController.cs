@@ -52,6 +52,7 @@ public class MainMenuController : MonoBehaviour
     void OnPlayButtonClicked()
     {
         Debug.Log("Play button clicked");
+        SceneManager.LoadScene("Level_01");
         //TODO
     }
 
