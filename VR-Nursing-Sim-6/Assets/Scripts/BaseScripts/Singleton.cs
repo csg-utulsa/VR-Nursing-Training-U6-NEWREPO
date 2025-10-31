@@ -52,7 +52,7 @@ namespace UTulsa.VRNS.BaseScripts
             }//end if (_instance == null)
 
             // Log the current instance for debugging purposes
-            Debug.Log(_instance);
+            //Debug.Log(_instance);
 
         }//end CheckForSingleton()
 

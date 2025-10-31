@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5808e3a09c397641bcbe397ab2e98fc, type: 3}
+  m_Name: HalfPill
+  m_EditorClassIdentifier: Assembly-CSharp::Pill
+  value: 0.5
+  pillBody: {fileID: 919132149155446097, guid: 19b4fd4c2f7592948a85cb0f2f906a66, type: 3}
