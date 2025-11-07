@@ -24,6 +24,7 @@ namespace UTulsa.VRNS.Managers
             {
                 //This will be for Desktop mode, which we have to use right now
                 //playerInput.Enable(); //Later we need to make sure it only activates the correct ActionMap based on input device
+                Cursor.lockState = CursorLockMode.Locked;
                 keyboardPlayer.SetActive(true);
             }
             else
