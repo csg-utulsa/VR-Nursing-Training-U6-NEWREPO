@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.071
+      value: 3.1605616
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.533
+      value: 1.3014768
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5073848
+      value: -2.0552437
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
       propertyPath: m_Name
-      value: NItropatch
+      value: Nitropatch
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17a811a269433cc4fb458af7126b3c55, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.082
+      value: 3.088
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.051
+      value: 0.981
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.939
+      value: -0.942
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -51,6 +51,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
       propertyPath: m_Name
       value: Sharpie
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8ef272b4f995934f8ad0dc586114b08, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
