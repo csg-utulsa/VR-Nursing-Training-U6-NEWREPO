@@ -2002,6 +2002,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d5d0facc18ebc4443baef0bcd3303a9b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1357352459}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d5d0facc18ebc4443baef0bcd3303a9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1357352465}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d5d0facc18ebc4443baef0bcd3303a9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1357352464}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d5d0facc18ebc4443baef0bcd3303a9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1357352463}
   m_SourcePrefab: {fileID: 100100000, guid: d5d0facc18ebc4443baef0bcd3303a9b, type: 3}
 --- !u!4 &1357352456 stripped
 Transform:
@@ -6811,6 +6820,68 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &1357352463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667310756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f072a66a3a6014a8ce6c20618b869b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandWasher
+  interactK: {fileID: -7766816732403677766, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+  interactVR: {fileID: 0}
+--- !u!54 &1357352464
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667310756}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &1357352465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667310756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.006382424, y: 0.00541693, z: 0.0048546037}
+  m_Center: {x: 0.00007572263, y: -0.00173081, z: -0.00012662336}
 --- !u!1001 &1415842009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7259,6 +7330,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3366035708839869234, guid: 40b200ec1c94bb541b8faac188d0bc2c, type: 3}
+      propertyPath: m_TagString
+      value: Hand
+      objectReference: {fileID: 0}
     - target: {fileID: 4884336760650644749, guid: 40b200ec1c94bb541b8faac188d0bc2c, type: 3}
       propertyPath: m_Name
       value: KEYBOARD PLAYER
