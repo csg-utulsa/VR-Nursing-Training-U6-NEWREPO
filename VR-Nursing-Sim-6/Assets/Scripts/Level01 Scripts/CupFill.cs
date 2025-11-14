@@ -12,14 +12,18 @@ public class CupFill : MonoBehaviour
     {
         if (collision.gameObject.name.Equals("LiquidMeds"))
         {
-            Debug.Log("Collided");
-            MeshFilter filter = this.gameObject.GetComponent<MeshFilter>();
-            MeshRenderer renderer = this.gameObject.GetComponent<MeshRenderer>();
-
-            isFilled = true;
-            filter.mesh = filledCup;
-            renderer.materials = filledArray;
+            Fill();
         }
 
+    }
+
+    public void Fill()
+    {
+        MeshFilter filter = this.gameObject.GetComponent<MeshFilter>();
+        MeshRenderer renderer = this.gameObject.GetComponent<MeshRenderer>();
+
+        isFilled = true;
+        filter.mesh = filledCup;
+        renderer.materials = filledArray;
     }
 }
