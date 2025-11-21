@@ -23,7 +23,7 @@ public class PatchWrite : MonoBehaviour
         }
     }
     
-    private void WriteSignature()
+    public void WriteSignature()
     {
         signature.text = "Signed";
     }
