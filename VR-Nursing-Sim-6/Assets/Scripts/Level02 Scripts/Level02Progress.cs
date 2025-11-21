@@ -10,7 +10,7 @@ public class Level02Progress : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (LevelManager.Level01GameType) {
+        switch (LevelManager.level01GameType) {
             case 1:
                 //take pain rating
                 //give pill
