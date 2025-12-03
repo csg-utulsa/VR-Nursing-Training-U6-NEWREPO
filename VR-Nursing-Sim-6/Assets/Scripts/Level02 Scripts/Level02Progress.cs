@@ -14,21 +14,34 @@ public class Level02Progress : MonoBehaviour
             case 1:
                 //take pain rating
                 //give pill
-                conversationReady = true;
+                if (hasProcessed && hasGiven)
+                {
+                    conversationReady = true;
+                }
                 break;
             case 2:
                 //clean area
                 //give patch
-                conversationReady = true;
+                if (hasProcessed && hasGiven)
+                {
+                    conversationReady = true;
+                }
                 break;
             case 3:
                 //take vitals
                 //give liquid
-                conversationReady = true;
+                if (hasProcessed && hasGiven)
+                {
+                    conversationReady = true;
+                }
                 break;
             default:
                 Debug.LogWarning("INVALID GAME TYPE!");
                 break;
+        }
+        if (conversationComplete)
+        {
+            //add win text
         }
     }
 }
