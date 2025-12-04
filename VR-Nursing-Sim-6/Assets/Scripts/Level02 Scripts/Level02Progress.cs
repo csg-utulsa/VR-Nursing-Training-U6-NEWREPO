@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Level02Progress : MonoBehaviour
 {
-    public bool hasProcessed = false;
-    public bool hasGiven = false;
-    public bool conversationReady = false;
-    public bool conversationComplete = false;
+    public static bool hasProcessed = false;
+    public static bool hasGiven = false;
+    public static bool conversationReady = false;
+    public static bool conversationComplete = false;
     
     // Update is called once per frame
     void Update()

@@ -15,7 +15,7 @@ public class Patient : MonoBehaviour
             //take pain reading - conversation element TODO
             Level02Progress.hasProcessed = true;
             //wait for pill to be given
-            if (collision.gameObject.name.Equals("Pill"))
+            if (other.gameObject.name.Equals("Pill"))
             {
                Level02Progress.hasGiven = true; 
             }
@@ -23,12 +23,12 @@ public class Patient : MonoBehaviour
         else if (LevelManager.level01GameType == 2)
         {
            //wait for area to be cleaned
-           if (collision.gameObject.name.Equals("Cloth"))
+           if (other.gameObject.name.Equals("Cloth"))
             {
                 Level02Progress.hasProcessed = true;
             }
            //wait for patch to be given
-           if (collision.gameObject.name.Equals("Patch"))
+           if (other.gameObject.name.Equals("Patch"))
             {
                Level02Progress.hasGiven = true; 
             }
@@ -36,12 +36,12 @@ public class Patient : MonoBehaviour
         else if (LevelManager.level01GameType == 3)
         {
             //wait for vitals to be taken
-            if (collision.gameObject.name.Equals("Vitals Meter"))
+            if (other.gameObject.name.Equals("Vitals Meter"))
             {
                 Level02Progress.hasProcessed = true;
             }
             //wait for cup to be given
-            if (collision.gameObject.name.Equals("LiqMedCup"))
+            if (other.gameObject.name.Equals("LiqMedCup"))
             {
                Level02Progress.hasGiven = true; 
             }
